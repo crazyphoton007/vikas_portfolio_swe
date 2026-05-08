@@ -15,7 +15,7 @@ export const data = {
     "Software Engineer specializing in reliable, high-performance backend systems, ML platforms, and data pipelines that scale. Proven ability to deliver production-ready cloud solutions and turn complex engineering challenges into clean, maintainable software that drives measurable business outcomes.",
 
   // Rotating roles in Hero
-  roles: ["Software Engineer ML", "Full-Stack SWE", "Billiards Player"],
+  roles: ["Software Engineer", "Builder", "Billiards Player"],
 
   about:
     "Software Engineer ML with experience building production services, data ingestion systems, REST API integrations, and ML-powered products across Capital One, Amazon, and SGS Tekniks. Strong in Python, JavaScript, cloud infrastructure, CI/CD, FastAPI, React, and scalable backend design.",
