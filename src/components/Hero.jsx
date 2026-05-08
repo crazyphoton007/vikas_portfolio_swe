@@ -27,7 +27,7 @@ export default function Hero({
           <div>
             <div className="premium-kicker mx-auto mb-4 md:mx-0">
               <Sparkles className="h-4 w-4 text-amber-300" />
-              <span>Analytics, risk strategy and data craft</span>
+              <span>ML systems, backend engineering and full-stack delivery</span>
             </div>
 
             <h1 className="gradient-name text-4xl font-black leading-tight md:text-6xl">
@@ -64,8 +64,8 @@ export default function Hero({
               <MapPin className="h-3.5 w-3.5 text-cyan-300" />
               {data.location}
             </span>
-            <span className="metric-chip">7+ years experience</span>
-            <span className="metric-chip">Cloud-scale analytics</span>
+            <span className="metric-chip">Production ML systems</span>
+            <span className="metric-chip">Cloud backend engineering</span>
           </div>
 
           {/* CTA tiles */}

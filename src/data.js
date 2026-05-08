@@ -4,74 +4,77 @@
 export const data = {
   name: "Vikas Shukla",
   photo: "avatar.jpg", // public/
-  location: "Richmond, VA",
+  location: "Bellevue, WA",
   email: "vikasofficial927@gmail.com",
   github: "crazyphoton007",
-  linkedin: "vikas-shukla-48063b78",
-  resumeUrl: "Vikas_Resume_DS_2026.pdf", // public/
+  linkedin: "vikas-s-8ab14a270",
+  resumeUrl: "Vikas_Resume_updated.pdf", // public/
 
   // Hero headline (1–2 lines)
   headline:
-    "Data Scientist with 7+ years of experience building ML and analytics solutions that support real business decisions from fraud detection to trial analytics to LLM + RAG systems.",
+    "Software Engineer specializing in reliable, high-performance backend systems, ML platforms, and data pipelines that scale. Proven ability to deliver production-ready cloud solutions and turn complex engineering challenges into clean, maintainable software that drives measurable business outcomes.",
 
-  // ✅ Your exact roles (bold + rotating in Hero)
-  roles: ["Data Scientist", "Analytics Builder", "Billiards Player"],
+  // Rotating roles in Hero
+  roles: ["Software Engineer ML", "Full-Stack SWE", "Billiards Player"],
 
   about:
-    "Innovative and collaborative Data Scientist with 7+ years of experience delivering large-scale analytical and modeling solutions. Detail-oriented with a strong track record of structured execution, insight generation, and data-driven decision support using cloud-scale data platforms.",
+    "Software Engineer ML with experience building production services, data ingestion systems, REST API integrations, and ML-powered products across Capital One, Amazon, and SGS Tekniks. Strong in Python, JavaScript, cloud infrastructure, CI/CD, FastAPI, React, and scalable backend design.",
 
   skills: {
-    languages: ["Python", "R", "SQL"],
+    languages: [
+      "Python",
+      "Java",
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "C++",
+      "SQL",
+      "HTML/CSS",
+    ],
     tools: [
-      "Databricks",
-      "Snowflake",
       "AWS",
       "Azure",
-      "Docker",
+      "Lambda",
+      "S3",
+      "ECS Fargate",
+      "DynamoDB",
+      "RDS",
+      "SQS/SNS",
+      "Kinesis",
+      "CloudFormation",
+      "Glue",
+      "Kafka",
+      "Kubernetes",
       "Git",
       "CI/CD",
-      "Tableau",
-      "QuickSight",
     ],
     frameworks: [
-      "Pandas",
-      "NumPy",
-      "scikit-learn",
-      "XGBoost",
-      "Gradient Boosting",
-      "Time Series",
-      "A/B Testing",
-      "LLM",
-      "RAG",
+      "React JS",
+      "React Native",
+      "Node.js",
+      "FastAPI",
+      "REST APIs",
+      "Linux",
+      "OOP",
+      "Data Structures & Algorithms",
       "FAISS",
+      "LLM/RAG",
+      "XGBoost",
     ],
   },
 
   experience: [
     {
       company: "Capital One",
-      title: "Data Science",
-      dates: "Oct 2024 – Present",
-      location: "Richmond, VA",
+      title: "Software Engineer",
+      dates: "Jul 2023 – Present",
+      location: "Bellevue, WA",
       bullets: [
-        "Rebuilt transaction risk model using XGBoost and validated performance with decile analysis and Gini coefficient, improving fraud prediction accuracy by 17% and reducing false positives by 22%.",
-        "Built consolidated dataset from 40M+ transactions across multiple systems, enabling self-serve analytics and reducing manual analysis cycles by 60%.",
-        "Designed hybrid ML and rule-based scoring framework to surface early indicators of account compromise, reducing investigation workload by 45 hours per month.",
-        "Defined KPIs and implemented automated SQL monitoring to detect data-quality issues before business impact, reducing weekly metric variance by 20%.",
-        "Partnered with engineering to productionize fraud models and automate thresholds, increasing model adoption to 98%."
-      ]
-    },
-    {
-      company: "Bayer",
-      title: "Data Scientist",
-      dates: "Jul 2023 – Oct 2024",
-      location: "St. Louis, MO",
-      bullets: [
-        "Modernized analytics workflows for trial and breeding data by containerizing RMarkdown pipelines and making reporting consistent and reproducible.",
-        "Automated reporting on a fixed schedule so research and commercial teams always had updated insights.",
-        "Built Gradient Boosting and regularized Logistic models on complex datasets and reduced model iteration time from several days to a single day.",
-        "Developed an R Shiny application for data visualization and model training with ROC/PR curves and interactive threshold tuning.",
-        "Produced executive-ready tables and visuals for large analytical reports, making technical outputs easier for leadership to use.",
+        "Architected and shipped a hybrid ML plus rule-based software pipeline using XGBoost for real-time account compromise detection, reducing fraud analyst investigation workload by 45 hours/month and improving model precision by 17%.",
+        "Engineered an automated Python/SQL data-quality monitoring service with real-time KPI alerting integrated into CI/CD, intercepting data issues pre-production in roughly 80% of cases and reducing weekly metric variance by 20%.",
+        "Designed and built a scalable ingestion and transformation layer consolidating 40M+ transactions from disparate systems into a unified self-serve analytics platform, eliminating 60% of manual analysis cycles.",
+        "Developed and productionized fraud scoring microservices with automated model-threshold management via CI/CD, achieving 98% model adoption and zero-downtime deployments across Risk Management teams.",
+        "Collaborated with engineering, compliance, and legal teams to align ML model outputs with U.S. regulatory standards while implementing dashboards, diagnostics, and root-cause analysis tooling.",
       ],
     },
     {
@@ -80,39 +83,38 @@ export const data = {
       dates: "Jun 2022 – Apr 2023",
       location: "Bellevue, WA",
       bullets: [
-        "Built a secure notebook environment for data science teams to explore, train, and deploy models, reducing development time by ~40%.",
-        "Created a notification quality framework across push, SMS, and email channels, improving engagement and retention for Alexa.",
-        "Implemented automated logic for A/B tests, auto-targeting, and multivariate experiments to improve conversion and ROI.",
-        "Launched uplift-based targeting with fatigue controls, reducing total notification volume and delivery failures while increasing incremental conversion.",
+        "Designed and deployed secure notebook infrastructure for ML model training and deployment, reducing model development-to-production time by 40% for the Alexa Data Science team.",
+        "Built an AI-powered notification quality assessment framework integrating user settings, reachability signals, and A/B test results across push, SMS, and email channels, improving Alexa engagement and retention by 20%.",
+        "Launched an uplift-based targeting system with guardrails against notification fatigue, reducing sends by roughly 22% with no engagement loss, cutting SMS/email failures by roughly 30%, and lifting incremental conversion by roughly 8%.",
+        "Implemented automated business logic for A/B, multivariate, and auto-targeting marketing experiments using Python, increasing campaign ROI and strategy effectiveness.",
       ],
     },
     {
       company: "SGS Tekniks",
-      title: "Data Scientist",
+      title: "Software Engineer",
       dates: "Nov 2014 – May 2018",
-      location: "Gurugram, IND",
+      location: "Gurugram, India",
       bullets: [
-        "Delivered forecasting models for customer demand using regression to guide planning decisions.",
-        "Built incident categorization models (including KNN), achieving >95% accuracy.",
-        "Automated Python and SQL pipelines for orders, tickets, and marketing data, moving from weekly to daily freshness.",
-        "Consolidated vendors and created volume advantage, reducing marketing costs and supporting analytics operations.",
+        "Built and maintained REST API integrations to pull data from third-party vendor systems into internal dashboards, tested endpoints, handled error responses, and documented API contracts for the team.",
+        "Developed and maintained internal CRUD application features using Python and JavaScript to manage product catalog and customer records, fixed bugs, wrote unit tests, and participated in code reviews.",
+        "Built a demand forecasting module using regression models in Python, integrated it into the order management system, and exposed results through a REST API endpoint consumed by the frontend dashboard, reducing overstock incidents by roughly 15%.",
       ],
     },
   ],
 
   projects: [
     {
-      name: "Fraud Detection",
-      stack: ["Python", "SQL", "XGBoost"],
+      name: "Fraud Detection System",
+      stack: ["Python", "XGBoost", "SQL"],
       bullets: [
-        "Engineered features using target encoding and transaction pattern signals and trained an XGBoost classifier.",
-        "Validated performance using decile analysis, Lorenz curve, and Gini coefficient for discrimination strength.",
-        "Top deciles captured the majority of fraudulent transactions, achieving high recall while controlling false positives.",
+        "Trained an XGBoost classifier with target encoding and transaction pattern features.",
+        "Validated model performance with decile analysis, Lorenz curve, and Gini coefficient.",
+        "Top 2 deciles captured the majority of fraud while maintaining high recall.",
       ],
       links: [
         {
           label: "Repo",
-          href: "https://github.com/crazyphoton007/Fraud-detection/blob/main/fraud_detection.ipynb",
+          href: "https://github.com/crazyphoton007/Fraud-detection",
         },
       ],
     },
@@ -120,9 +122,9 @@ export const data = {
       name: "Cancer Gene Detection",
       stack: ["R", "Python", "SQL"],
       bullets: [
-        "Reduced dimensionality from 20K+ features to ~500 using PCA + feature selection (~99.7% reduction).",
-        "Applied multiple clustering algorithms on principal components to group patients.",
-        "Validated clusters using original labels to confirm separability and interpretability.",
+        "Reduced 20K+ genomic features to 500 using PCA, achieving a 99.7% feature reduction.",
+        "Applied clustering algorithms on principal components to identify patient groupings.",
+        "Validated patient clusters against ground-truth labels for separability and interpretation.",
       ],
       links: [
         {
@@ -132,27 +134,12 @@ export const data = {
       ],
     },
     {
-      name: "Forecast Bike Rentals",
-      stack: ["Python", "SQL", "Gradient Boosting"],
-      bullets: [
-        "Built Gradient Boosting models to estimate hourly bike rentals for the last quarter of 2012.",
-        "Performed correlation analysis to identify high/low impact features and improve forecast stability.",
-        "Created evaluation checks to verify performance across time slices and peak-hour segments.",
-      ],
-      links: [
-        {
-          label: "Repo",
-          href: "https://github.com/crazyphoton007/Forecast_Bike-Rentals",
-        },
-      ],
-    },
-    {
       name: "IntelliQuery Engine (LLM + RAG)",
-      stack: ["Python", "FastAPI", "Embeddings", "FAISS", "RAG"],
+      stack: ["Python", "FastAPI", "FAISS", "React Native", "SQL"],
       bullets: [
-        "Built a production-ready RAG engine for legal and finance Q&A with ingestion, chunking, and vector search.",
-        "Achieved sub-second retrieval (<800ms) over 10K+ chunks using embeddings + FAISS indexing.",
-        "Returned source-cited answers to reduce manual review by ~60% and improve trust for users.",
+        "Built a retrieval-augmented generation system using LLM embeddings and FAISS vector search, enabling semantic queries across 10K+ document chunks with sub-800ms response time and reducing unsupported responses by roughly 60%.",
+        "Implemented intent routing with lightweight classification for finance and legal queries, improving accuracy by roughly 45% and cutting manual validation effort by roughly 50%.",
+        "Deployed a scalable FastAPI backend integrated with a React Native application, delivering production-grade low-latency AI responses.",
       ],
       links: [
         {
@@ -166,18 +153,18 @@ export const data = {
   education: [
     {
       school: "Trine University",
-      degree: "M.S. Information Studies",
-      dates: "2025",
+      degree: "M.S. Computer & Information Studies",
+      dates: "Feb 2025",
     },
     {
       school: "University at Buffalo",
       degree: "M.S. Data Science (GPA 3.7/4)",
-      dates: "2020 – 2022",
+      dates: "Feb 2022",
     },
     {
       school: "SRM University",
       degree: "B.Tech Electrical and Electronics Engineering (GPA 8.6/10)",
-      dates: "2010 – 2014",
+      dates: "May 2014",
     },
   ],
 };
