@@ -3,22 +3,22 @@
 
 export const data = {
   name: "Vikas Shukla",
-  photo: "avatar.jpg", // public/
+  photo: "profile.png", // public/
   location: "Bellevue, WA",
   email: "vikasofficial927@gmail.com",
   github: "crazyphoton007",
   linkedin: "vikas-s-8ab14a270",
-  resumeUrl: "Vikas_Resume_updated.pdf", // public/
+  resumeUrl: "Vikas_Resume.pdf", // public/
 
   // Hero headline (1–2 lines)
   headline:
-    "Software Engineer specializing in reliable, high-performance backend systems, ML platforms, and data pipelines that scale. Proven ability to deliver production-ready cloud solutions and turn complex engineering challenges into clean, maintainable software that drives measurable business outcomes.",
+    "Software ML Engineer with 7+ years of experience building scalable, high-performance distributed systems. Proven technical leader with a strong track record of delivering innovative solutions, leading cross-functional teams, and driving measurable business impact.",
 
   // Rotating roles in Hero
-  roles: ["Software Engineer", "Builder", "Billiards Player"],
+  roles: ["Machine Learning Engineer", "Full-Stack SWE", "Billiards Player"],
 
   about:
-    "Software Engineer ML with experience building production services, data ingestion systems, REST API integrations, and ML-powered products across Capital One, Amazon, and SGS Tekniks. Strong in Python, JavaScript, cloud infrastructure, CI/CD, FastAPI, React, and scalable backend design.",
+    "Software ML Engineer focused on machine learning systems, distributed systems, scalable architecture, cloud computing, microservices, and full-stack delivery. Experienced across Capital One, Amazon, and SGS Tekniks with production work in Python, JavaScript, FastAPI, React Native, CI/CD, AWS, Azure, RAG, agentic AI, and production ML platforms.",
 
   skills: {
     languages: [
@@ -43,6 +43,9 @@ export const data = {
       "Kinesis",
       "CloudFormation",
       "Glue",
+      "EventBridge",
+      "AppConfig",
+      "Cosmos DB",
       "Kafka",
       "Kubernetes",
       "Git",
@@ -56,9 +59,22 @@ export const data = {
       "REST APIs",
       "Linux",
       "OOP",
+      "Scalable Architecture",
+      "Distributed Systems",
+      "Cloud Computing",
+      "Microservices",
+      "HLD",
+      "LLD",
       "Data Structures & Algorithms",
       "FAISS",
       "LLM/RAG",
+      "Vector Databases",
+      "Agentic AI",
+      "Prompt Engineering",
+      "LangGraph",
+      "CrewAI",
+      "OpenAI APIs",
+      "AI Agents",
       "XGBoost",
     ],
   },
@@ -66,26 +82,26 @@ export const data = {
   experience: [
     {
       company: "Capital One",
-      title: "Software Engineer",
-      dates: "Jul 2023 – Present",
-      location: "Bellevue, WA",
+      title: "Sr. Machine Learning Engineer",
+      dates: "May 2023 – Present",
+      location: "Richmond, VA",
       bullets: [
-        "Architected and shipped a hybrid ML plus rule-based software pipeline using XGBoost for real-time account compromise detection, reducing fraud analyst investigation workload by 45 hours/month and improving model precision by 17%.",
-        "Engineered an automated Python/SQL data-quality monitoring service with real-time KPI alerting integrated into CI/CD, intercepting data issues pre-production in roughly 80% of cases and reducing weekly metric variance by 20%.",
-        "Designed and built a scalable ingestion and transformation layer consolidating 40M+ transactions from disparate systems into a unified self-serve analytics platform, eliminating 60% of manual analysis cycles.",
-        "Developed and productionized fraud scoring microservices with automated model-threshold management via CI/CD, achieving 98% model adoption and zero-downtime deployments across Risk Management teams.",
-        "Collaborated with engineering, compliance, and legal teams to align ML model outputs with U.S. regulatory standards while implementing dashboards, diagnostics, and root-cause analysis tooling.",
+        "Architected and deployed scalable real-time ML inference services supporting fraud decisioning across 40M+ transactions, improving model precision by 17%, reducing analyst effort by 45 hours/month, and enabling highly available, low-latency production predictions.",
+        "Built a platform-level observability framework for ML pipelines including automated data validation, KPI monitoring, alerting, and deployment health checks, reducing production incidents by 80%.",
+        "Designed and built a scalable data ingestion and transformation layer consolidating 40M+ transactions from disparate systems into a unified self-serve analytics platform, eliminating 60% of manual analysis cycles.",
+        "Designed and deployed containerized ML microservices with CI/CD automation, model versioning, rollback capabilities, and zero-downtime production releases.",
+        "Balanced 60% coding and implementation, 10% system design, 25% operational excellence and on-call ownership, and 5% hiring and mentoring.",
       ],
     },
     {
       company: "Amazon",
-      title: "Software Engineer (ML)",
+      title: "Software ML Engineer",
       dates: "Jun 2022 – Apr 2023",
       location: "Bellevue, WA",
       bullets: [
-        "Designed and deployed secure notebook infrastructure for ML model training and deployment, reducing model development-to-production time by 40% for the Alexa Data Science team.",
+        "Designed and deployed secure machine learning development infrastructure supporting model training, experimentation, and deployment workflows for the Alexa Data Science organization.",
         "Built an AI-powered notification quality assessment framework integrating user settings, reachability signals, and A/B test results across push, SMS, and email channels, improving Alexa engagement and retention by 20%.",
-        "Launched an uplift-based targeting system with guardrails against notification fatigue, reducing sends by roughly 22% with no engagement loss, cutting SMS/email failures by roughly 30%, and lifting incremental conversion by roughly 8%.",
+        "Launched an uplift-based targeting system with guardrails against notification fatigue, reducing total sends by 22% with no engagement loss, cutting SMS/email failures by 30%, and lifting incremental conversion by 8%.",
         "Implemented automated business logic for A/B, multivariate, and auto-targeting marketing experiments using Python, increasing campaign ROI and strategy effectiveness.",
       ],
     },
@@ -95,21 +111,36 @@ export const data = {
       dates: "Nov 2014 – May 2018",
       location: "Gurugram, India",
       bullets: [
-        "Built and maintained REST API integrations to pull data from third-party vendor systems into internal dashboards, tested endpoints, handled error responses, and documented API contracts for the team.",
-        "Developed and maintained internal CRUD application features using Python and JavaScript to manage product catalog and customer records, fixed bugs, wrote unit tests, and participated in code reviews.",
-        "Built a demand forecasting module using regression models in Python, integrated it into the order management system, and exposed results through a REST API endpoint consumed by the frontend dashboard, reducing overstock incidents by roughly 15%.",
+        "Automated on-premises server fleet scaling for the SGS tax engine during peak holiday traffic, reducing deployment time from 3-4 hours per server to 25 seconds.",
+        "Led infrastructure design and deployment of the SGS tax processing platform, ensuring high availability, scalability, and reliable performance during peak sales periods.",
+        "Mentored interns, organized innovation hackathons, and delivered technical training programs to strengthen team capability and engineering excellence.",
       ],
     },
   ],
 
   projects: [
     {
+      name: "IntelliQuery Engine (Agentic AI Platform | LLM + RAG)",
+      stack: ["Python", "FastAPI", "FAISS", "React Native", "SQL"],
+      bullets: [
+        "Built a retrieval-augmented generation system using LLM embeddings and FAISS vector search, enabling semantic queries across 10K+ document chunks with sub-800ms response time and reducing unsupported responses by 60%.",
+        "Implemented agentic routing and context-aware retrieval workflows for finance and legal queries, improving accuracy by 45% and reducing manual validation effort by 50%.",
+        "Deployed a scalable FastAPI backend integrated with a React Native application for CaseFit, delivering production-grade low-latency AI responses.",
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/crazyphoton007/Intelliquery-Engine",
+        },
+      ],
+    },
+    {
       name: "Fraud Detection System",
       stack: ["Python", "XGBoost", "SQL"],
       bullets: [
         "Trained an XGBoost classifier with target encoding and transaction pattern features.",
         "Validated model performance with decile analysis, Lorenz curve, and Gini coefficient.",
-        "Top 2 deciles captured the majority of fraud while maintaining high recall.",
+        "Top deciles captured the majority of fraud while maintaining high recall.",
       ],
       links: [
         {
@@ -134,17 +165,17 @@ export const data = {
       ],
     },
     {
-      name: "IntelliQuery Engine (LLM + RAG)",
-      stack: ["Python", "FastAPI", "FAISS", "React Native", "SQL"],
+      name: "Forecast Bike Rentals",
+      stack: ["Python", "SQL", "Gradient Boosting"],
       bullets: [
-        "Built a retrieval-augmented generation system using LLM embeddings and FAISS vector search, enabling semantic queries across 10K+ document chunks with sub-800ms response time and reducing unsupported responses by roughly 60%.",
-        "Implemented intent routing with lightweight classification for finance and legal queries, improving accuracy by roughly 45% and cutting manual validation effort by roughly 50%.",
-        "Deployed a scalable FastAPI backend integrated with a React Native application, delivering production-grade low-latency AI responses.",
+        "Built Gradient Boosting models to estimate hourly bike rentals using historical demand patterns.",
+        "Performed correlation analysis to identify high-impact features and improve forecast stability.",
+        "Created evaluation checks to verify model performance across time slices and peak-hour segments.",
       ],
       links: [
         {
           label: "Repo",
-          href: "https://github.com/crazyphoton007/Intelliquery-Engine",
+          href: "https://github.com/crazyphoton007/Forecast_Bike-Rentals",
         },
       ],
     },
@@ -153,7 +184,7 @@ export const data = {
   education: [
     {
       school: "Trine University",
-      degree: "M.S. Computer & Information Studies",
+      degree: "M.S. Information Studies & AI",
       dates: "Feb 2025",
     },
     {
