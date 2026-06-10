@@ -225,7 +225,7 @@ main > section:nth-child(3n) { animation-delay: -5s; }
     height: var(--role-h);
     line-height: var(--role-h);
     overflow: hidden;
-    width: 16rem;
+    width: min(78vw, 23rem);
     position: relative;
     transform: scaleY(-1);
   }
@@ -241,6 +241,7 @@ main > section:nth-child(3n) { animation-delay: -5s; }
     height: var(--role-h);
     display: flex;
     align-items: center;
+    white-space: nowrap;
     background: linear-gradient(90deg, var(--gold), var(--cyan), var(--rose));
     -webkit-background-clip: text;
     background-clip: text;
