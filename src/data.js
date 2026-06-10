@@ -130,7 +130,7 @@ export const data = {
       links: [
         {
           label: "Repo",
-          href: "https://github.com/crazyphoton007/Intelliquery-Engine",
+          href: "https://github.com/crazyphoton007/Lawyer-Mapping",
         },
       ],
     },
