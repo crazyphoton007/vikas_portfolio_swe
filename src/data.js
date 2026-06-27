@@ -5,14 +5,14 @@ export const data = {
   name: "Vikas Shukla",
   photo: "profile.png", // public/
   location: "Bellevue, WA",
-  email: "vikasofficial927@gmail.com",
+  email: "vik.shukla44@gmail.com",
   github: "crazyphoton007",
   linkedin: "vikas-s-8ab14a270",
   resumeUrl: "Vikas_Resume.pdf", // public/
 
   // Hero headline (1–2 lines)
   headline:
-    "Software ML Engineer with 7+ years of experience building scalable, high-performance distributed systems. Proven technical leader with a strong track record of delivering innovative solutions, leading cross-functional teams, and driving measurable business impact.",
+    "Sr. Software Engineer with 7+ years of experience building scalable, high-performance distributed systems. Proven technical leader with a strong track record of delivering innovative solutions, leading cross-functional teams, and driving measurable business impact.",
 
   // Rotating roles in Hero
   roles: ["Machine Learning Engineer", "Full-Stack SWE", "Billiards Player"],
@@ -82,9 +82,9 @@ export const data = {
   experience: [
     {
       company: "Capital One",
-      title: "Sr. Machine Learning Engineer",
+      title: "Sr. Software Engineer ML",
       dates: "May 2023 – Present",
-      location: "Richmond, VA",
+      location: "Bellevue, WA",
       bullets: [
         "Architected and deployed scalable real-time ML inference services supporting fraud decisioning across 40M+ transactions, improving model precision by 17%, reducing analyst effort by 45 hours/month, and enabling highly available, low-latency production predictions.",
         "Built a platform-level observability framework for ML pipelines including automated data validation, KPI monitoring, alerting, and deployment health checks, reducing production incidents by 80%.",
