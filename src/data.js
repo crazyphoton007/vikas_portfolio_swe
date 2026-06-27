@@ -95,7 +95,7 @@ export const data = {
     },
     {
       company: "Amazon",
-      title: "Software ML Engineer",
+      title: "Software Engineer",
       dates: "Jun 2022 – Apr 2023",
       location: "Bellevue, WA",
       bullets: [
