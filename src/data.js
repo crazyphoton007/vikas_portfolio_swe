@@ -82,7 +82,7 @@ export const data = {
   experience: [
     {
       company: "Capital One",
-      title: "Sr. Software Engineer ML",
+      title: "Sr. Software Engineer",
       dates: "May 2023 – Present",
       location: "Bellevue, WA",
       bullets: [
