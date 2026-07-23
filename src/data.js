@@ -82,7 +82,7 @@ export const data = {
   experience: [
     {
       company: "Capital One",
-      title: "Sr. Software Engineer",
+      title: "Machine Learning Engineer",
       dates: "May 2023 – Present",
       location: "Bellevue, WA",
       bullets: [
@@ -95,7 +95,7 @@ export const data = {
     },
     {
       company: "Amazon",
-      title: "Software Engineer",
+      title: "Software ML Engineer",
       dates: "Jun 2022 – Apr 2023",
       location: "Bellevue, WA",
       bullets: [
@@ -107,7 +107,7 @@ export const data = {
     },
     {
       company: "Teave Tech",
-      title: "Software Engineer",
+      title: "Data Scientist Intern",
       dates: "May 2021 – May 2022",
       location: "Buffalo, NY",
       bullets: [
@@ -118,7 +118,7 @@ export const data = {
     },
     {
       company: "University at Buffalo",
-      title: "Research Assistant",
+      title: "Senior Research Aide",
       dates: "Aug 2020 – May 2021",
       location: "Buffalo, NY",
       bullets: [
@@ -129,7 +129,7 @@ export const data = {
     },
     {
       company: "SGS Tekniks",
-      title: "Software Engineer",
+      title: "Data Scientist",
       dates: "Nov 2014 – May 2018",
       location: "Gurugram, India",
       bullets: [
