@@ -18,7 +18,7 @@ export const data = {
   roles: ["Machine Learning Engineer", "Full-Stack SWE", "Billiards Player"],
 
   about:
-    "Software ML Engineer focused on machine learning systems, distributed systems, scalable architecture, cloud computing, microservices, and full-stack delivery. Experienced across Capital One, Amazon, and SGS Tekniks with production work in Python, JavaScript, FastAPI, React Native, CI/CD, AWS, Azure, RAG, agentic AI, and production ML platforms.",
+    "Software ML Engineer focused on machine learning systems, distributed systems, scalable architecture, cloud computing, microservices, and full-stack delivery. Experienced across Capital One, Amazon, Teave Tech, University at Buffalo research, and SGS Tekniks with production work in Python, JavaScript, FastAPI, React Native, CI/CD, AWS, Azure, RAG, agentic AI, and production ML platforms.",
 
   skills: {
     languages: [
@@ -106,6 +106,28 @@ export const data = {
       ],
     },
     {
+      company: "Teave Tech",
+      title: "Software Engineer",
+      dates: "May 2021 – May 2022",
+      location: "Buffalo, NY",
+      bullets: [
+        "Built full-stack web and backend features using React, Node.js, Python, SQL, and cloud services, translating product requirements into maintainable production releases.",
+        "Designed REST API integrations, data models, and automation workflows that improved operational visibility and reduced manual support effort.",
+        "Partnered with product and engineering stakeholders on testing, deployment, and performance tuning for customer-facing software.",
+      ],
+    },
+    {
+      company: "University at Buffalo",
+      title: "Research Assistant",
+      dates: "Aug 2020 – May 2021",
+      location: "Buffalo, NY",
+      bullets: [
+        "Supported applied data science research using Python, R, SQL, statistical modeling, and machine learning experiments.",
+        "Prepared datasets, engineered features, evaluated model performance, and documented reproducible analysis workflows.",
+        "Collaborated with faculty and graduate researchers to turn exploratory findings into clear technical summaries and project deliverables.",
+      ],
+    },
+    {
       company: "SGS Tekniks",
       title: "Software Engineer",
       dates: "Nov 2014 – May 2018",
@@ -125,12 +147,16 @@ export const data = {
       bullets: [
         "Built a retrieval-augmented generation system using LLM embeddings and FAISS vector search, enabling semantic queries across 10K+ document chunks with sub-800ms response time and reducing unsupported responses by 60%.",
         "Implemented agentic routing and context-aware retrieval workflows for finance and legal queries, improving accuracy by 45% and reducing manual validation effort by 50%.",
-        "Deployed a scalable FastAPI backend integrated with a React Native application for CaseFit, delivering production-grade low-latency AI responses.",
+        "Deployed a scalable FastAPI backend integrated with a React Native application for The CaseFit, delivering production-grade low-latency AI responses.",
       ],
       links: [
         {
           label: "Repo",
           href: "https://github.com/crazyphoton007/Lawyer-Mapping",
+        },
+        {
+          label: "CaseFit",
+          href: "https://thecasefit.com/",
         },
       ],
     },
